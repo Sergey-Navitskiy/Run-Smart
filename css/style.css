@@ -128,6 +128,12 @@
   text-align: center;
   font-size: 30px;
   font-style: normal;
+  text-transform: uppercase;
+}
+.title_left {
+  color: #fff;
+  font-size: 36px;
+  text-align: left;
 }
 
 .primus {
@@ -165,4 +171,15 @@
   font-size: 14px;
   font-weight: 300;
   text-decoration-line: underline;
+}
+
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+  background: url("../../img/bg2.png") center center/cover no-repeat;
+}
+.consultation__descr {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
