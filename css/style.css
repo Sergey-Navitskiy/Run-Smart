@@ -122,6 +122,11 @@
   font-size: 16px;
   margin-top: 67px;
 }
+.button_submit {
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+}
 
 .title {
   color: #0D0D0D;
@@ -182,4 +187,31 @@
   color: #FFF;
   font-size: 20px;
   font-weight: 500;
+}
+
+.feed-form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.feed-form input {
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  color: #4B4B4B;
+  font-size: 14px;
+  font-weight: 300;
+}
+.feed-form input:-moz-placeholder {
+  color: red;
+}
+.feed-form input:-ms-input-placeholder {
+  color: red;
+}
+.feed-form input:nth-child(3) {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
