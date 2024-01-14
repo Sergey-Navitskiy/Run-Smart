@@ -182,6 +182,12 @@
   font-weight: 300;
   text-decoration-line: underline;
 }
+.primus__icon_animated {
+  animation: hearthbeat 1.5s ease infinite;
+}
+.primus__icon_animated:hover {
+  animation-play-state: paused;
+}
 
 .consultation {
   min-height: 680px;
@@ -590,4 +596,16 @@
 }
 .pageup img {
   width: 100%;
+}
+
+@keyframes hearthbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
 }/*# sourceMappingURL=style.css.map */
